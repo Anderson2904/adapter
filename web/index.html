@@ -9,9 +9,10 @@
 <body>
   <h1>Pasarela de Pagos</h1>
   <section id="payment-form-container">
-    <h2>Información del Usuario</h2>
+    <center><h2>Información del Usuario</h2>
     <form id="payment-form">
       <div class="form-row">
+    </center>
         <div class="form-group col-md-6">
           <label for="nombres">Nombres:</label>
           <input type="text" id="nombres" class="form-control" required>
@@ -33,7 +34,7 @@
         </div>
         <div class="form-group col-md-6">
           <label for="numeroDocumento">Número de Documento:</label>
-          <input type="text" id="numeroDocumento" class="form-control" required>
+          <input type="text"id="numeroDocumento"class="form-control" required>
         </div>
       </div>
       <div class="form-group">
@@ -48,7 +49,8 @@
         <label for="montoPagar">Monto a Pagar:</label>
         <input type="number" id="montoPagar" class="form-control" required>
       </div>
-      <button type="button" onclick="processPayment()">Procesar Pago</button>
+      <center> <button type="button" onclick="processPayment()">Procesar Pago</button>
+      </center>
     </form>
   </section>
   <div id="result"></div>
